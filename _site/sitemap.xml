@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  
+    
+      <url>
+        <loc>/en/catalog.html</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/en/catalog.html" />
+        
+          <xhtml:link rel="alternate" hreflang="nl" href="/nl/cataloog.html" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/nl/cataloog.html</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/en/catalog.html" />
+        
+          <xhtml:link rel="alternate" hreflang="nl" href="/nl/cataloog.html" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/nl/hoe-bestellen.html</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="nl" href="/nl/hoe-bestellen.html" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/en/how-order.html" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/en/how-order.html</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="nl" href="/nl/hoe-bestellen.html" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/en/how-order.html" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/en/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/en/" />
+        
+          <xhtml:link rel="alternate" hreflang="nl" href="/nl/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/nl/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/en/" />
+        
+          <xhtml:link rel="alternate" hreflang="nl" href="/nl/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/nl/inloggen.html</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="nl" href="/nl/inloggen.html" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/en/login.html" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/en/login.html</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="nl" href="/nl/inloggen.html" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/en/login.html" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/en/register.html</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/en/register.html" />
+        
+          <xhtml:link rel="alternate" hreflang="nl" href="/nl/registreren.html" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/nl/registreren.html</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/en/register.html" />
+        
+          <xhtml:link rel="alternate" hreflang="nl" href="/nl/registreren.html" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/sitemap.xml</loc>
+        
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+  </urlset>
