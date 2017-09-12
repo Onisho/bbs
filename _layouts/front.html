@@ -2,6 +2,14 @@
 layout: master
 ---
 
+<!-- include header -->   
+  {% for header in site.blocks[page.lang] %}
+    {% if header[0] == "jumbo" %}
+      {% assign body = header[1] %}
+      {% include {{ body }} %}
+    {% endif %}
+  {% endfor %}
+
 <section class="content mt-3">
   <div class="container">
     <div class="row">
