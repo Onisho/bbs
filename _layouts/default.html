@@ -2,19 +2,19 @@
 layout: master
 ---
 
-<section class="content mt-3">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-6">
-        <p><strong>Site title:</strong> {{ site.title[page.lang] }}</p>
-        <p><strong>Page title:</strong> {% if page.title %}{{ page.title | escape }}{% else %}{{ site.title[page.lang] | escape }}{% endif %}</p>
-        <p><strong>Page keywords:</strong> {% if page.title %}{{ page.title | escape }}{% else %}{{ site.keywords[page.lang] | escape }}{% endif %}</p>
-        <p><strong>Page language:</strong> {{ page.lang }}</p>
-        <p><strong>Page description:</strong> {% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description[page.lang] }}{% endif %}</p>
-      </div>
-      <div class="col-sm-6">
-        {{content}}
-      </div>
+<section class="content">
+  <div class="row">
+    <div class="col-12">
+      {{content}}
+    </div>
+    <div class="col-12 mt-5">
+      <p>
+        <strong>Site title:</strong> {{ site.title[page.lang] }}<br />
+        <strong>Page title:</strong> {% if page.title %}{{ page.title | escape }}{% else %}{{ site.title[page.lang] | escape }}{% endif %}<br />
+        <strong>meta keywords:</strong> {% if page.title %}{{ page.title | escape }}{% else %}{{ site.keywords[page.lang] | escape }}{% endif %}<br />
+        <strong>meta language:</strong> {{ page.lang }}<br />
+        <strong>meta description:</strong> {% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description[page.lang] }}{% endif %}
+      </p>
     </div>
   </div>
 </section>

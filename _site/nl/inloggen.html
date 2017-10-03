@@ -36,8 +36,6 @@
 </header>
       
     
-      
-    
   
     <!-- include navigation -->
     <!-- navigation -->   
@@ -99,46 +97,89 @@
           </div>
         </div>
       </li>
-      <li class="cart"><a href="#" class="nav-link px-4 my-2"><span class="oi oi-cart" title="cart" aria-hidden="true"></span> My Cart</a></li>
+      <li class="cart"><a href="#" class="nav-link px-4 my-2"><span class="oi oi-cart" title="cart" aria-hidden="true"></span> Mijn Winkelwagen</a></li>
     </ul>
   </div>
 </nav>
   
     <!-- include content -->
     <section class="content">
-      <section class="content mt-3">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-6">
-        <p><strong>Site title:</strong> Dit is een nl website</p>
-        <p><strong>Page title:</strong> inloggen</p>
-        <p><strong>Page keywords:</strong> inloggen</p>
-        <p><strong>Page language:</strong> nl</p>
-        <p><strong>Page description:</strong> Dit is een prima website</p>
-      </div>
-      <div class="col-sm-6">
-        <h1>Nederlands Inloggen</h1>
+  <div class="row">
+    <div class="col-12">
+      <h1 class="page-title">Inloggen</h1>
 
-      </div>
+    </div>
+    <div class="col-12 mt-5">
+      <p>
+        <strong>Site title:</strong> Dit is een nl website<br />
+        <strong>Page title:</strong> inloggen<br />
+        <strong>meta keywords:</strong> inloggen<br />
+        <strong>meta language:</strong> nl<br />
+        <strong>meta description:</strong> Dit is een prima website
+      </p>
     </div>
   </div>
 </section>
-    </section>
     
     <!-- include footer -->   
-    
-      
-    
-      
-        
-        <footer class="text-muted">
-  <div class="container">
-    <p>Dit is een nl website</p>
-    <p>Dit is een nederlandse footer</p>
-  </div>
-</footer>
-      
-    
+    <footer class="footer">
+    <div class="row">
+      <div class="col-md-8 footer-1">
+        <div class="row py-4">
+          
+          <!-- footer menu loop -->
+          
+          
+          <div class="col-sm">
+            <h5>Mijn account</h5>
+            <ul class="list-unstyled">
+              
+              <li><a href="/bbs/nl/inloggen">Inloggen/Registreren</a></li>
+              
+            </ul>
+          </div>
+          
+          
+          <div class="col-sm">
+            <h5>Help</h5>
+            <ul class="list-unstyled">
+              
+              <li><a href="/bbs/nl/hoe-bestellen">Hoe bestellen?</a></li>
+              
+              <li><a href="/bbs/nl/betaling">Betaling</a></li>
+              
+              <li><a href="/bbs/nl/levering">Levering</a></li>
+              
+              <li><a href="/bbs/nl/privacy-beleid">Privacy beleid</a></li>
+              
+              <li><a href="/bbs/nl/verkoopsvoorwaarden">Verkoopsvoorwaarden</a></li>
+              
+            </ul>
+          </div>
+          
+          
+          <div class="col-sm">
+            <h5>Over ons</h5>
+            <ul class="list-unstyled">
+              
+              <li><a href="/bbs/nl/bedrijf">Bedrijf</a></li>
+              
+              <li><a href="/bbs/nl/contacteer-ons">Contacteer ons</a></li>
+              
+            </ul>
+          </div>
+          
+          <!-- // footer menu loop -->
+          
+        </div>
+      </div>
+      <div class="col-md-4 footer-2 py-4">
+        <h5>Betaal met</h5>
+        <p class="w-75"><img src="/bbs/img/pay.png" alt="pay" class="img-fluid" /></p>
+        <h5>Vind ons op</h5>
+      </div>
+    </div>
+  </footer>
     
     <!-- include copyright -->
     <!-- copyright -->
@@ -156,5 +197,13 @@
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+  
+<!-- some page jquery -->
+<script>
+$( "#filterBtn" ).click(function() {
+  $( "#categories" ).toggleClass( "d-block" );
+});  
+</script>
+  
 </body>
 </html>

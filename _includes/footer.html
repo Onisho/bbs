@@ -1,0 +1,28 @@
+<footer class="footer">
+    <div class="row">
+      <div class="col-md-8 footer-1">
+        <div class="row py-4">
+          
+          <!-- footer menu loop -->
+          {% for menu in site.navi-footer[page.lang] %}
+          {% assign title = menu[0] %}
+          <div class="col-sm">
+            <h5>{{ site.data.translate.[title][page.lang] }}</h5>
+            <ul class="list-unstyled">
+              {% for link in menu[1] %}
+              <li><a href="{{site.baseurl}}/{{page.lang}}{{ link[1].url }}">{{ link[1].name }}</a></li>
+              {% endfor %}
+            </ul>
+          </div>
+          {% endfor %}
+          <!-- // footer menu loop -->
+          
+        </div>
+      </div>
+      <div class="col-md-4 footer-2 py-4">
+        <h5>{{ site.data.translate.pay[page.lang] }}</h5>
+        <p class="w-75"><img src="{{site.baseurl}}/img/pay.png" alt="pay" class="img-fluid" /></p>
+        <h5>{{ site.data.translate.find[page.lang] }}</h5>
+      </div>
+    </div>
+  </footer>

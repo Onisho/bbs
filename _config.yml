@@ -58,7 +58,7 @@ navi-footer:
     help:
       how:
         name: How to order?
-        url: /how-to-order
+        url: /how-order
       payment:
         name: Payment
         url: /payment
@@ -69,7 +69,7 @@ navi-footer:
         name: Privacy policy
         url: /privacy-policy
       terms:
-        nema: Sales terms
+        name: Sales terms
         url: /sales-terms
     about:
       company:
@@ -78,9 +78,6 @@ navi-footer:
       contact:
         name: Contact us
         url: /contact
-      bbs:
-        name: Best Buy Shoes
-        url: /bbs
   nl:
     account:
       login:
@@ -100,7 +97,7 @@ navi-footer:
         name: Privacy beleid
         url: /privacy-beleid
       terms:
-        nema: Verkoopsvoorwaarden
+        name: Verkoopsvoorwaarden
         url: /verkoopsvoorwaarden
     about:
       company:
@@ -108,10 +105,7 @@ navi-footer:
         url: /bedrijf
       contact:
         name: Contacteer ons
-        url: /contacteer
-      bbs:
-        name: Best Buy Shoes
-        url: /bbs
+        url: /contacteer-ons
 
       
 # BLOCKS
@@ -119,7 +113,7 @@ navi-footer:
 blocks:
   en:
     header: header-en.html
-    footer: footer-en.html
   nl:
     header: header-nl.html
-    footer: footer-nl.html
+    
+    
