@@ -1,39 +1,44 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-  <a class="navbar-brand" href="{{site.baseurl}}/{{page.lang}}">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<!-- navigation -->   
+<nav class="navbar navbar-expand-md navbar-dark bg-bbs">
+  <a class="navbar-brand d-md-none" href="#"><span class="px-4">BEST BUY SHOES</span></a>
+  <button class="navbar-toggler m-2" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
+    <ul class="navbar-nav text-center">
       {% for menu in site.navi[page.lang] %}
       {% assign active = nil %}
       {% assign active = '/' | append: page.lang | append: menu[1].url | append: '.html' %}
       {% if page.url == active %}
         {% assign active = 'active' %}
       {% endif %}
-      <li class="{% if forloop.first %}first{% endif %} {% if forloop.last %}last{% endif %}">
-        <a href="{{site.baseurl}}/{{page.lang}}{{ menu[1].url }}" class="nav-link {{active}}">{{ menu[1].name }}</a>
+      <li class="{{menu[1].name}} {% if forloop.first %}first{% endif %} {% if forloop.last %}last{% endif %}">
+        <a href="{{site.baseurl}}/{{page.lang}}{{ menu[1].url }}" class="nav-link px-4 my-2">{{ menu[1].name }}</a>
       </li>
       {% endfor %}
     </ul>
-    
-    
-    <ul class="navbar-nav">
-      {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
-      {% for post in posts %}
+    <span class="navbar-text mr-auto px-4 d-none d-lg-block">
+      First price shoes for professionals<br /><small>More than 1000 styles</small>
+    </span>
+    <ul class="navbar-nav text-center ml-auto">
       <li>
-        <a href="{{site.baseurl}}{{ post.url }}" class="nav-link {{ post.lang }}">{{ post.lang }}</a>
+        <div class="dropdown show">
+          <a class="btn btn-secondary btn-language dropdown-toggle px-2 my-2" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            {{ page.lang }}
+          </a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+            {% for post in posts %}
+            <a href="{{site.baseurl}}{{ post.url }}" class="dropdown-item {{ post.lang }}">{{ post.lang }}</a>
+            {% endfor %}
+            {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+            {% for page in pages %}
+            <a href="{{site.baseurl}}{{ page.url }}" class="dropdown-item {{ page.lang }}">{{ page.lang }}</a>
+            {% endfor %}
+          </div>
+        </div>
       </li>
-      {% endfor %}
-
-      {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
-      {% for page in pages %}
-      <li>
-        <a href="{{site.baseurl}}{{ page.url }}" class="nav-link {{ page.lang }}">{{ page.lang }}</a>
-      </li>
-      {% endfor %}
+      <li class="cart"><a href="#" class="nav-link px-4 my-2"><span class="oi oi-cart" title="cart" aria-hidden="true"></span> My Cart</a></li>
     </ul>
-       
   </div>
 </nav>

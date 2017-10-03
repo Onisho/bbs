@@ -108,6 +108,32 @@
   
     
       <url>
+        <loc>/nl/promoties.html</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="nl" href="/nl/promoties.html" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/en/promotions.html" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/en/promotions.html</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="nl" href="/nl/promoties.html" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/en/promotions.html" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
         <loc>/en/register.html</loc>
         
         

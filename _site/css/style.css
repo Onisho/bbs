@@ -1,2 +1,46 @@
-.en:lang(en), .nl:lang(nl), .de:lang(de), .fr:lang(fr) {color:white !important;}
-footer {border-top:1px solid #e9ecef;padding:25px 0;margin-top:25px;}
+@import 'open-iconic-bootstrap.css';
+
+html {font-size:14px;}
+body {background-color:#A5C1C6;color:#3F4854;}
+.container {background-color:#ffffff;}
+.content {padding:20px 0 40px 0;}
+.footer .footer-1 {background-color: #829A9F;}
+.footer .footer-2 {background-color: #BAC7CA;}
+.copyright .row {background-color:#A5C1C6;}
+
+/* language */
+.en:lang(en), .nl:lang(nl), .de:lang(de), .fr:lang(fr) {color:#829A9F !important;}
+
+/* footer */
+.footer {color:#ffffff;}
+.footer a {color:#ffffff;text-transform:uppercase;}
+.footer h5 {font-style: italic;margin-bottom:20px;}
+
+/* navbar */
+.bg-bbs {background-color:#829A9F;}
+.navbar {padding:0rem;margin-left:-15px;margin-right:-15px;}
+.navbar-dark .navbar-toggler {color:#ffffff;border-color:#ffffff;}
+.navbar .Catalog, .navbar .Cataloog {background-color:#829A9F;}
+.navbar .Promotions, .navbar .Promoties {background-color:#BE5555;}
+.navbar .Login, .navbar .Inloggen {background-color:#606060;}
+.navbar .Register, .navbar .Registreren {background-color:#484848;}
+.navbar .Cart {background-color:#748890;}
+.navbar-text {padding-top:.3rem;padding-bottom:.3rem;}
+.navbar-dark .navbar-nav .nav-link,
+.navbar-dark .navbar-text {color:#ffffff;}
+
+/* header */
+header .col {padding-right:0;padding-left:0;}
+
+/* copyright */
+.copyright {color:#ffffff;text-transform:uppercase;}
+
+/* buttons */
+.btn-language, .btn-secondary.active, .btn-language:active, .show>.btn-secondary.dropdown-toggle {background-color:transparent;border-color:transparent;}
+.btn-language:hover {background-color:transparent;border-color:transparent;}
+.btn-language.focus, .btn-language:focus {box-shadow:none;}
+
+/* form */
+.form-control {border-color: #A5C1C6;}
+.dropdown-menu {border-radius:0;}
+input.quantity {width:25%;}

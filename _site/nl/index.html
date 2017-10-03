@@ -3,7 +3,7 @@
   <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>site</title>
   <meta name="description" content="Dit is een prima website">
   <meta name="keywords" content="site">
@@ -23,78 +23,91 @@
   
 <body class="">
   
-  <!-- include navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-  <a class="navbar-brand" href="/bbs/nl">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <div class="container">
+    
+    <!-- include header -->
+    
+      
+        
+        <header>
+  <div class="row">
+    <div class="col"><img src="/bbs/img/banner.jpg" alt="best buy shoes" class="img-fluid" /></div>
+  </div>
+</header>
+      
+    
+      
+    
+  
+    <!-- include navigation -->
+    <!-- navigation -->   
+<nav class="navbar navbar-expand-md navbar-dark bg-bbs">
+  <a class="navbar-brand d-md-none" href="#"><span class="px-4">BEST BUY SHOES</span></a>
+  <button class="navbar-toggler m-2" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
+    <ul class="navbar-nav text-center">
       
       
       
       
-      <li class="first ">
-        <a href="/bbs/nl/cataloog" class="nav-link /nl/cataloog.html">Cataloog</a>
+      <li class="Cataloog first ">
+        <a href="/bbs/nl/cataloog" class="nav-link px-4 my-2">Cataloog</a>
       </li>
       
       
       
       
-      <li class=" ">
-        <a href="/bbs/nl/registreren" class="nav-link /nl/registreren.html">Registreren</a>
+      <li class="Promoties  ">
+        <a href="/bbs/nl/promoties" class="nav-link px-4 my-2">Promoties</a>
       </li>
       
       
       
       
-      <li class=" ">
-        <a href="/bbs/nl/inloggen" class="nav-link /nl/inloggen.html">Inloggen</a>
+      <li class="Registreren  ">
+        <a href="/bbs/nl/registreren" class="nav-link px-4 my-2">Registreren</a>
       </li>
       
       
       
       
-      <li class=" last">
-        <a href="/bbs/nl/hoe-bestellen" class="nav-link /nl/hoe-bestellen.html">Hoe bestellen</a>
-      </li>
-      
-    </ul>
-    
-    
-    <ul class="navbar-nav">
-      
-      
-
-      
-      
-      <li>
-        <a href="/bbs/en/" class="nav-link en">en</a>
-      </li>
-      
-      <li>
-        <a href="/bbs/nl/" class="nav-link nl">nl</a>
+      <li class="Inloggen  last">
+        <a href="/bbs/nl/inloggen" class="nav-link px-4 my-2">Inloggen</a>
       </li>
       
     </ul>
-       
+    <span class="navbar-text mr-auto px-4 d-none d-lg-block">
+      First price shoes for professionals<br /><small>More than 1000 styles</small>
+    </span>
+    <ul class="navbar-nav text-center ml-auto">
+      <li>
+        <div class="dropdown show">
+          <a class="btn btn-secondary btn-language dropdown-toggle px-2 my-2" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            nl
+          </a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            
+            
+            
+            
+            <a href="/bbs/en/" class="dropdown-item en">en</a>
+            
+            <a href="/bbs/nl/" class="dropdown-item nl">nl</a>
+            
+          </div>
+        </div>
+      </li>
+      <li class="cart"><a href="#" class="nav-link px-4 my-2"><span class="oi oi-cart" title="cart" aria-hidden="true"></span> My Cart</a></li>
+    </ul>
   </div>
 </nav>
   
-  <!-- include content -->
-  <!-- include header -->   
+    <!-- include content -->
+    <section class="content">
+      <!-- include header -->   
   
-    
-      
-      <div class="jumbotron">
-  <div class="container">
-    <h1 class="display-3">Producten</h1>
-    <p>TLorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tincidunt enim eget molestie porttitor. Sed tincidunt, felis blandit aliquet sollicitudin, est magna pellentesque nibh, sed vehicula arcu mauris congue sem.</p>
-    <p><a class="btn btn-primary btn-lg" href="#" role="button">Discover</a></p>
-  </div>
-</div>
     
   
     
@@ -117,21 +130,35 @@
     </div>
   </div>
 </section>
+    </section>
     
-  <!-- include footer -->   
-  
-    
-  
+    <!-- include footer -->   
     
       
-      <footer class="text-muted">
+    
+      
+        
+        <footer class="text-muted">
   <div class="container">
     <p>Dit is een nl website</p>
     <p>Dit is een nederlandse footer</p>
   </div>
 </footer>
+      
     
-  
+    
+    <!-- include copyright -->
+    <!-- copyright -->
+  <section class="copyright">
+    <div class="row py-2">
+      <div class="col">
+        <p class="text-center"><small>BBS - Meersbloem Melden 42 - B-97000 Oudenaarde - Belgium<br />dieter.willekens@bbs.shoes - +32 473 411 567</small></p>
+      </div>
+    </div>
+  </section>
+    
+    
+  </div>
   
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>

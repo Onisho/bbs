@@ -3,7 +3,7 @@
   <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>register</title>
   <meta name="description" content="This is a great website">
   <meta name="keywords" content="register">
@@ -23,68 +23,90 @@
   
 <body class="">
   
-  <!-- include navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-  <a class="navbar-brand" href="/bbs/en">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <div class="container">
+    
+    <!-- include header -->
+    
+      
+        
+        <header>
+  <div class="row">
+    <div class="col"><img src="/bbs/img/banner.jpg" alt="best buy shoes" class="img-fluid" /></div>
+  </div>
+</header>
+      
+    
+      
+    
+  
+    <!-- include navigation -->
+    <!-- navigation -->   
+<nav class="navbar navbar-expand-md navbar-dark bg-bbs">
+  <a class="navbar-brand d-md-none" href="#"><span class="px-4">BEST BUY SHOES</span></a>
+  <button class="navbar-toggler m-2" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
+    <ul class="navbar-nav text-center">
       
       
       
       
-      <li class="first ">
-        <a href="/bbs/en/catalog" class="nav-link /en/catalog.html">Catalog</a>
+      <li class="Catalog first ">
+        <a href="/bbs/en/catalog" class="nav-link px-4 my-2">Catalog</a>
       </li>
       
       
       
       
-      <li class=" ">
-        <a href="/bbs/en/register" class="nav-link active">Register</a>
+      <li class="Promotions  ">
+        <a href="/bbs/en/promotions" class="nav-link px-4 my-2">Promotions</a>
       </li>
       
       
       
       
-      <li class=" ">
-        <a href="/bbs/en/login" class="nav-link /en/login.html">Login</a>
+      <li class="Register  ">
+        <a href="/bbs/en/register" class="nav-link px-4 my-2">Register</a>
       </li>
       
       
       
       
-      <li class=" last">
-        <a href="/bbs/en/how-order" class="nav-link /en/how-order.html">How to order</a>
-      </li>
-      
-    </ul>
-    
-    
-    <ul class="navbar-nav">
-      
-      
-
-      
-      
-      <li>
-        <a href="/bbs/en/register.html" class="nav-link en">en</a>
-      </li>
-      
-      <li>
-        <a href="/bbs/nl/registreren.html" class="nav-link nl">nl</a>
+      <li class="Login  last">
+        <a href="/bbs/en/login" class="nav-link px-4 my-2">Login</a>
       </li>
       
     </ul>
-       
+    <span class="navbar-text mr-auto px-4 d-none d-lg-block">
+      First price shoes for professionals<br /><small>More than 1000 styles</small>
+    </span>
+    <ul class="navbar-nav text-center ml-auto">
+      <li>
+        <div class="dropdown show">
+          <a class="btn btn-secondary btn-language dropdown-toggle px-2 my-2" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            en
+          </a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            
+            
+            
+            
+            <a href="/bbs/en/register.html" class="dropdown-item en">en</a>
+            
+            <a href="/bbs/nl/registreren.html" class="dropdown-item nl">nl</a>
+            
+          </div>
+        </div>
+      </li>
+      <li class="cart"><a href="#" class="nav-link px-4 my-2"><span class="oi oi-cart" title="cart" aria-hidden="true"></span> My Cart</a></li>
+    </ul>
   </div>
 </nav>
   
-  <!-- include content -->
-  <section class="content mt-3">
+    <!-- include content -->
+    <section class="content">
+      <section class="content mt-3">
   <div class="container">
     <div class="row">
       <div class="col-sm-6">
@@ -101,21 +123,66 @@
     </div>
   </div>
 </section>
+    </section>
     
-  <!-- include footer -->   
-  
-    
-  
+    <!-- include footer -->   
     
       
-      <footer class="text-muted">
-  <div class="container">
-    <p>This is an en website</p>
-    <p>This is the english footer</p>
-  </div>
-</footer>
     
-  
+      
+        
+        <footer class="footer">
+    <div class="row">
+      <div class="col-md-8 footer-1">
+        <div class="row py-4">
+          <div class="col-sm">
+            <h5>My Account</h5>
+            <ul class="list-unstyled">
+              <li><a href="">Login / Register</a></li>
+            </ul>
+          </div>
+          <div class="col-sm">
+            <h5>Help</h5>
+            <ul class="list-unstyled">
+              <li><a href="">How to order?</a></li>
+              <li><a href="">Payment</a></li>
+              <li><a href="">Delivery</a></li>
+              <li><a href="">Privacy policy</a></li>
+              <li><a href="">Sales terms</a></li>
+            </ul>
+          </div>
+          <div class="col-sm">
+            <h5>About us</h5>
+            <ul class="list-unstyled">
+              <li><a href="">Company</a></li>
+              <li><a href="">Contact us</a></li>
+              <li><a href="">Best Buy Shoes</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 footer-2 py-4">
+        <h5>Pay with</h5>
+        <p class="w-75"><img src="img/pay.png" alt="pay" class="img-fluid" /></p>
+        <h5>Find us on</h5>
+      </div>
+    </div>
+  </footer>
+      
+    
+    
+    <!-- include copyright -->
+    <!-- copyright -->
+  <section class="copyright">
+    <div class="row py-2">
+      <div class="col">
+        <p class="text-center"><small>BBS - Meersbloem Melden 42 - B-97000 Oudenaarde - Belgium<br />dieter.willekens@bbs.shoes - +32 473 411 567</small></p>
+      </div>
+    </div>
+  </section>
+    
+    
+  </div>
   
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
