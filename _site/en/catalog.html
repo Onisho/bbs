@@ -114,10 +114,50 @@
         <div class="d-inline-block mr-2">
           <h5 class="d-none d-lg-inline">Collection</h5>
           <ul class="nav nav-pills">
-            <li class="nav-item m-1"><a class="nav-link active" href="#">Ladies</a></li>
-            <li class="nav-item m-1"><a class="nav-link" href="#">Men</a></li>
-            <li class="nav-item m-1"><a class="nav-link" href="#">Kids</a></li>
-            <li class="nav-item m-1"><a class="nav-link" href="#">Babies</a></li>
+            <li class="nav-item m-1">
+              <div class="dropdown show">
+                <a class="nav-link" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Ladies</a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <a class="dropdown-item" href="#">All</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Sandals</a>
+                  <a class="dropdown-item" href="#">Boots</a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item m-1">
+              <div class="dropdown show">
+                <a class="nav-link active" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Men</a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <a class="dropdown-item" href="#">All</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Sandals</a>
+                  <a class="dropdown-item" href="#">Boots</a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item m-1">
+              <div class="dropdown show">
+                <a class="nav-link" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Kids</a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <a class="dropdown-item" href="#">All</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Sandals</a>
+                  <a class="dropdown-item" href="#">Boots</a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item m-1">
+              <div class="dropdown show">
+                <a class="nav-link" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Babies</a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <a class="dropdown-item" href="#">All</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Sandals</a>
+                  <a class="dropdown-item" href="#">Boots</a>
+                </div>
+              </div>
+            </li>
           </ul>
         </div>
         <div class="d-inline-block">
@@ -285,63 +325,228 @@
 </nav>
       
 <!-- detail -->
-<div class="detail">
+<div class="detail my-5">
   <div class="row">
-    <div class="col-12 col-md-5 mb-3">
-      <img src="/bbs/img/bigimage.jpg" alt="image" class="img-fluid" />
-    </div>
-    <div class="col-12 col-md-7">
+    <div class="col-12 col-lg-5 mb-3"> <img src="/bbs/img/bigimage.jpg" alt="image" class="img-fluid" /> </div>
+    <div class="col-12 col-lg-7">
+      <p>Ref <strong>B152456</strong></p>
+      
       <div class="card bg-light border-0">
         <div class="card-body">
-          <div class="row">
-            <div class="col-12 col-lg-5">
-              <div class="mb-3">
-                <span class="align-top">color</span>
-                <ul class="list-inline list-colors d-inline">
-                  <li class="list-inline-item" style="background-color:red;"></li>
-                  <li class="list-inline-item" style="background-color:darkseagreen;"></li>
-                  <li class="list-inline-item" style="background-color:pink;"></li>
-                </ul>
-              </div>
-              <p><span class="green h2">3.99 EUR</span> <i class="grey">per carton</i></p>
-              
-              <div role="form" class="form-inline mb-3">
-                <div class="form-group">
-                  <label>Quantity</label>
-                  <input type="email" class="form-control mx-1" style="width: 30%"> cartons
-                </div>
-              </div>
-              <p><button type="submit" class="btn btn-green px-5">Order now</button></p>
-
+          <div class="row no-gutters">
+            <div class="col-12 col-md-4 order-3 order-md-1 mb-3">
+              <h6>Packed</h6>
+              <p>D.GREY/PEWTER/GREY (2XZ)</p>
+              <p>P1075 B23 40/46</p>
+              <p>12 pairs</p>
             </div>
-            <div class="col-12 col-lg-7">
-              <dl class="row">
-                <dt class="col-4 col-sm-5 text-right">Ref</dt>
-                <dd class="col-8 col-sm-7">B226530</dd>
-                        
-                <dt class="col-4 col-sm-5 text-right">Packed</dt>
-                <dd class="col-8 col-sm-7">12 per Carton</dd>
-                        
-                <dt class="col-4 col-sm-5 text-right">Pre Pack</dt>
-                <dd class="col-8 col-sm-7">P1075 B23 40/46</dd>
-                        
-                <dt class="col-4 col-sm-5 text-right">Sizes</dt>
-                <dd class="col-8 col-sm-7">1 2 3 3 3 2 1</dd>
-                        
-                <dt class="col-4 col-sm-5 text-right">Color</dt>
-                <dd class="col-8 col-sm-7">BLACK/BLACK (B26)</dd>
-                      
-                <dt class="col-4 col-sm-5 text-right">Stock</dt>
-                <dd class="col-8 col-sm-7">98 cartons</dd>
-              </dl>
+            <div class="col-6 col-md-2 order-2 order-md-2 text-center">
+              <h6>Price</h6>
+              <p class="green h3">€ 3.99</p>
+              <p><span class="d-block small grey">per pair</span></p>
+            </div>
+            <div class="col-6 col-md-2 order-1 order-md-3 text-center mb-3">
+              <h6>Quantity</h6>
+                <input type="email" class="form-control mx-1"> <span class="d-block small"><strong>98 cartons</strong></span> <span class="d-block small">on stock</span> 
+            </div>
+            <div class="col-12 col-md-4 order-4 order-md-4 text-md-center">
+              <h6>Size(s)</h6>
+              <div class="d-inline-block ml-auto">
+                <div class="d-block">1</div>
+                <div class="d-block grey">36</div>
+              </div>
+              <div class="d-inline-block">
+                <div class="d-block">2</div>
+                <div class="d-block grey">37</div>
+              </div>
+              <div class="d-inline-block">
+                <div class="d-block">3</div>
+                <div class="d-block grey">38</div>
+              </div>
+              <div class="d-inline-block">
+                <div class="d-block">3</div>
+                <div class="d-block grey">39</div>
+              </div>
+              <div class="d-inline-block">
+                <div class="d-block">3</div>
+                <div class="d-block grey">40</div>
+              </div>
+              <div class="d-inline-block">
+                <div class="d-block">2</div>
+                <div class="d-block grey">41</div>
+              </div>
+              <div class="d-inline-block">
+                <div class="d-block">1</div>
+                <div class="d-block grey">42</div>
+              </div>
             </div>
           </div>
         </div>
       </div>
+      
+      <div class="card border-0">
+        <div class="card-body">
+          <div class="row no-gutters">
+            <div class="col-12 col-md-4 order-3 order-md-1 mb-3">
+              <h6>Packed</h6>
+              <p>D.GREY/PEWTER/GREY (2XZ)</p>
+              <p>P1075 B23 40/46</p>
+              <p>12 pairs</p>
+            </div>
+            <div class="col-6 col-md-2 order-2 order-md-2 text-center">
+              <h6>Price</h6>
+              <p class="green h3">€ 3.99</p>
+              <p><span class="d-block small grey">per pair</span></p>
+            </div>
+            <div class="col-6 col-md-2 order-1 order-md-3 text-center mb-3">
+              <h6>Quantity</h6>
+                <input type="email" class="form-control mx-1"> <span class="d-block small"><strong>98 cartons</strong></span> <span class="d-block small">on stock</span> 
+            </div>
+            <div class="col-12 col-md-4 order-4 order-md-4 text-md-center">
+              <h6>Size(s)</h6>
+              <div class="d-inline-block ml-auto">
+                <div class="d-block">1</div>
+                <div class="d-block grey">36</div>
+              </div>
+              <div class="d-inline-block">
+                <div class="d-block">2</div>
+                <div class="d-block grey">37</div>
+              </div>
+              <div class="d-inline-block">
+                <div class="d-block">3</div>
+                <div class="d-block grey">38</div>
+              </div>
+              <div class="d-inline-block">
+                <div class="d-block">3</div>
+                <div class="d-block grey">39</div>
+              </div>
+              <div class="d-inline-block">
+                <div class="d-block">3</div>
+                <div class="d-block grey">40</div>
+              </div>
+              <div class="d-inline-block">
+                <div class="d-block">2</div>
+                <div class="d-block grey">41</div>
+              </div>
+              <div class="d-inline-block">
+                <div class="d-block">1</div>
+                <div class="d-block grey">42</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="card bg-light border-0">
+        <div class="card-body">
+          <div class="row no-gutters">
+            <div class="col-12 col-md-4 order-3 order-md-1 mb-3">
+              <h6>Packed</h6>
+              <p>D.GREY/PEWTER/GREY (2XZ)</p>
+              <p>P1075 B23 40/46</p>
+              <p>12 pairs</p>
+            </div>
+            <div class="col-6 col-md-2 order-2 order-md-2 text-center">
+              <h6>Price</h6>
+              <p class="green h3">€ 3.99</p>
+              <p><span class="d-block small grey">per pair</span></p>
+            </div>
+            <div class="col-6 col-md-2 order-1 order-md-3 text-center mb-3">
+              <h6>Quantity</h6>
+                <input type="email" class="form-control mx-1"> <span class="d-block small"><strong>98 cartons</strong></span> <span class="d-block small">on stock</span> 
+            </div>
+            <div class="col-12 col-md-4 order-4 order-md-4 text-md-center">
+              <h6>Size(s)</h6>
+              <div class="d-inline-block ml-auto">
+                <div class="d-block">1</div>
+                <div class="d-block grey">36</div>
+              </div>
+              <div class="d-inline-block">
+                <div class="d-block">2</div>
+                <div class="d-block grey">37</div>
+              </div>
+              <div class="d-inline-block">
+                <div class="d-block">3</div>
+                <div class="d-block grey">38</div>
+              </div>
+              <div class="d-inline-block">
+                <div class="d-block">3</div>
+                <div class="d-block grey">39</div>
+              </div>
+              <div class="d-inline-block">
+                <div class="d-block">3</div>
+                <div class="d-block grey">40</div>
+              </div>
+              <div class="d-inline-block">
+                <div class="d-block">2</div>
+                <div class="d-block grey">41</div>
+              </div>
+              <div class="d-inline-block">
+                <div class="d-block">1</div>
+                <div class="d-block grey">42</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="card border-0">
+        <div class="card-body">
+          <div class="row no-gutters">
+            <div class="col-12 col-md-4 order-3 order-md-1 mb-3">
+              <h6>Packed</h6>
+              <p>D.GREY/PEWTER/GREY (2XZ)</p>
+              <p>P1075 B23 40/46</p>
+              <p>12 pairs</p>
+            </div>
+            <div class="col-6 col-md-2 order-2 order-md-2 text-center">
+              <h6>Price</h6>
+              <p class="green h3">€ 3.99</p>
+              <p><span class="d-block small grey">per pair</span></p>
+            </div>
+            <div class="col-6 col-md-2 order-1 order-md-3 text-center mb-3">
+              <h6>Quantity</h6>
+                <input type="email" class="form-control mx-1"> <span class="d-block small"><strong>98 cartons</strong></span> <span class="d-block small">on stock</span> 
+            </div>
+            <div class="col-12 col-md-4 order-4 order-md-4 text-md-center">
+              <h6>Size(s)</h6>
+              <div class="d-inline-block ml-auto">
+                <div class="d-block">1</div>
+                <div class="d-block grey">36</div>
+              </div>
+              <div class="d-inline-block">
+                <div class="d-block">2</div>
+                <div class="d-block grey">37</div>
+              </div>
+              <div class="d-inline-block">
+                <div class="d-block">3</div>
+                <div class="d-block grey">38</div>
+              </div>
+              <div class="d-inline-block">
+                <div class="d-block">3</div>
+                <div class="d-block grey">39</div>
+              </div>
+              <div class="d-inline-block">
+                <div class="d-block">3</div>
+                <div class="d-block grey">40</div>
+              </div>
+              <div class="d-inline-block">
+                <div class="d-block">2</div>
+                <div class="d-block grey">41</div>
+              </div>
+              <div class="d-inline-block">
+                <div class="d-block">1</div>
+                <div class="d-block grey">42</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p><button class="btn btn-green btn-lg">Add to cart</button></p>
     </div>
   </div>
 </div>
-      
+
 <!-- also viewed -->
 <div class="suggestions my-5">
   <h3 class="d-flex flex-row"><span class="mr-3">People who viewed this item also viewed</span></h3>

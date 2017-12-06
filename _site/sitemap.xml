@@ -134,12 +134,12 @@
   
     
       <url>
-        <loc>/nl/</loc>
+        <loc>/en/</loc>
         
-        
-          <xhtml:link rel="alternate" hreflang="nl" href="/nl/" />
         
           <xhtml:link rel="alternate" hreflang="en" href="/en/" />
+        
+          <xhtml:link rel="alternate" hreflang="nl" href="/nl/" />
         
         <changefreq>weekly</changefreq>
       </url>
@@ -147,12 +147,12 @@
   
     
       <url>
-        <loc>/en/</loc>
+        <loc>/nl/</loc>
         
-        
-          <xhtml:link rel="alternate" hreflang="nl" href="/nl/" />
         
           <xhtml:link rel="alternate" hreflang="en" href="/en/" />
+        
+          <xhtml:link rel="alternate" hreflang="nl" href="/nl/" />
         
         <changefreq>weekly</changefreq>
       </url>
