@@ -12,7 +12,7 @@ keywords:
 index:
   en: /en/catalog
   nl: /nl/cataloog
-baseurl: /bbs
+baseurl: /
 exclude: ['README.md']
 
 
